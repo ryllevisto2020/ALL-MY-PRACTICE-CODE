@@ -1,0 +1,28 @@
+PHP CHECKLIST:
+
+Array
+Sorting
+Function
+Constructor
+OOP
+
+WE NEED TO KNOW:
+Validation
+Authentication
+Authorization
+Cookie
+Session
+Token
+Custom Header Request and Response
+Upload File
+Regex
+Encrypt
+Decrypt
+Parse
+Stringify
+Serialize
+Deserialize
+Encode
+Decode
+Hash
+Short Tag
