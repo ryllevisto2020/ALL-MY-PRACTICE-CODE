@@ -71,6 +71,7 @@ return [
 
     'links' => [
         public_path('storage') => storage_path('app/public'),
+        public_path('laravel-file') => storage_path('app/laravel-file'),
     ],
 
 ];

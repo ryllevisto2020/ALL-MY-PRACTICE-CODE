@@ -44,5 +44,11 @@
         <input type="password" name="LoginPassword" id="LoginPassword" class="LoginPassword" placeholder="Password">
         <input type="button" value="Login" id="LogIn" class="LogIn">
 
+        <h1>
+
+            @foreach ($post as $posts)
+            <img src={{ $posts }} alt="" style="height: 250px;width: 250px">
+            @endforeach
+        </h1>
     </body>
 </html>

@@ -20,6 +20,13 @@ $(document).ready(function() {
         contentType: false,
         success: function (response, textStatus, jqXHR) {
             //Do anything
+            if(response.code==0){
+                alert(response.message);
+            }
+            if(response.code==1){
+                alert(response.message);
+                load();
+            }
         },
         error: function (jqXHR, textStatus, errorThrown) {
             console.table(jqXHR)

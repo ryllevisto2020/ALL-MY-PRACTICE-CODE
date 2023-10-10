@@ -69,7 +69,29 @@ class loginAndSigninController extends Controller
     }
 
     public function file(Request $request){
-        $file = $request->file('fileUp');
+        try {
+            //code...
+            $file = $request->file('fileUp');
+            $extension = $file->getClientOriginalExtension();
+            if($extension=="jpeg" || $extension=="png" || $extension=="gif" || $extension=="jpg" || $extension=="docx"){
+                Storage::makeDirectory("laravel-file");
+                Storage::putFileAs('laravel-file',$file,$file->hashName());
+                $message = [
+                    'code'=>1,
+                    'message'=>"File Saved!"
+                ];
+                return response()->json($message);
+            }else{
+                $message = [
+                    'code'=>0,
+                    'message'=>"Invalid File Extension!"
+                ];
+                return response()->json($message);
+            }
+        } catch (\Throwable $th) {
+            //throw $th;
+        }
+        /*$file = $request->file('fileUp');
         $file_name = $file->getClientOriginalName();
         $re = '/[.]|(png|jpeg|gif|jpg)/m';
         $str = $file_name;
@@ -84,6 +106,6 @@ class loginAndSigninController extends Controller
         Storage::putFileAs('laravel-file',$file,$file->hashName());
         $t = Storage::allFiles('laravel-file');
         dd($t);
-        //dd($_POST,$_FILES,$a);
+        //dd($_POST,$_FILES,$a);*/
     }
 }

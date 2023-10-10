@@ -2,7 +2,8 @@
 
 use App\Http\Controllers\loginAndSigninController;
 use Illuminate\Support\Facades\Route;
-
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\URL;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,7 +16,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('loginAndsignin');
+    //dd(Storage::get(''));
+    return response()->view('loginAndsignin',['post'=>Storage::allFiles('laravel-file')]);
 });
 Route::post('/insert',[loginAndSigninController::class, 'signIn'])->name('insertRoute');
 Route::get('/middle',[loginAndSigninController::class,'middle'])->middleware(['ageRestrict']);
