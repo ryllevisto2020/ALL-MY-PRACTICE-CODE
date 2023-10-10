@@ -22,6 +22,10 @@
         <![endif]-->
 
         <!--<script src="" async defer></script>-->
+        <h1>File Upload</h1>
+        <input type="text" name="test1" id="test1" class="test1" placeholder="test">
+        <input type="file" name="fileUp" class="fileUp" id="fileUp">
+        <input type="button" value="Upload" class="fileButton" id="fileButton">
         <h1>Sign Up</h1>
         <input type="text" name="username" id="username" class="username" placeholder="Username">
         <span style="visibility: hidden;" id="" class="usernameErr">Enter Your username!</span>

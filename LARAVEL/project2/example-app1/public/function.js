@@ -2,6 +2,30 @@ $(document).ready(function() {
     function load(){
         $('.test').load('/');
     }
+    $('.fileButton').click(function(){
+        let token = $(".token").val();
+        let file = $('.fileUp')[0].files[0];
+        console.log(file);
+        let data = new FormData();
+        data.append('fileUp',file);
+        let test = $('.test1').val();
+        data.append('name','awd')
+        console.log(test);
+       $.ajax({
+        headers:{"Authorization":"Bearer "+token+"",'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
+        type: "POST",
+        url: "file",
+        data: data,
+        processData: false,
+        contentType: false,
+        success: function (response, textStatus, jqXHR) {
+            //Do anything
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+            console.table(jqXHR)
+        }
+       });
+    })
     $('.SignUp').click(function () {
         let username = $(".username").val();
         let password = $(".password").val();

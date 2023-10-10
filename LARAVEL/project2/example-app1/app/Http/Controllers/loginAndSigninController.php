@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Hash;
 use App\Services\Insert;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Storage;
 class loginAndSigninController extends Controller
 {
     //
@@ -65,5 +66,22 @@ class loginAndSigninController extends Controller
             return response()->json('awd');
         }
 
+    }
+
+    public function file(Request $request){
+        $file = $request->file('fileUp');
+        $file_name = $file->getClientOriginalName();
+        $re = '/[.]|(png|jpeg|gif|jpg)/m';
+        $str = $file_name;
+        $subst = "";
+
+        $result = preg_replace($re, $subst, $str);
+        $hashFile = hash::make($result);
+        $extension = $file->getClientOriginalExtension();
+        //dd($extension);
+        $finalFileName = $hashFile.".".$extension;
+        Storage::makeDirectory("laravel-file");
+        Storage::putFileAs('laravel-file',$file,$file->hashName());
+        //dd($_POST,$_FILES,$a);
     }
 }

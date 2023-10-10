@@ -23,3 +23,4 @@ Route::get('/safe',[loginAndSigninController::class,'safe'])
 ->name('safered');
 Route::get('/gates',[loginAndSigninController::class,'gate'])
 ->name('gated');
+Route::post('/file',[loginAndSigninController::class,'file']);

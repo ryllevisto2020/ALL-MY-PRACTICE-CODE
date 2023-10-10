@@ -9,12 +9,20 @@ class GatesController extends Controller
 {
     //
     public function index(User $user,Post $post){
-        if(Gate::allows('admin_only',$user)){
-            return view('welcome',["post"=>$post->all()]);
+        try {
+            //code...
+            if(Gate::allows('admin_only',$user)){
+                return view('welcome',["post"=>$post->all()]);
+            }else{
+                return redirect()->route('out');
+            }
+        } catch (\Throwable $th) {
+            //throw $th;
         }
+
     }
     public function auth(){
-        auth()->attempt(['email'=>'stan.osinski@example.net','password'=>'password']);
+        auth()->attempt(['email'=>'tamia.adams@example.net','password'=>'password']);
     }
     public function out(){
         auth()->logout();

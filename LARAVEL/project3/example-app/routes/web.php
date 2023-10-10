@@ -17,6 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/gateTest',[GatesController::class,'index'])->can('admin_only','user');
+Route::get('/gateTest',[GatesController::class,'index']);//->can('admin_only','user');
 Route::get('/auth',[GatesController::class,'auth']);
-Route::get('/out',[GatesController::class,'out']);
+Route::get('/out',[GatesController::class,'out'])->name('out');
