@@ -82,6 +82,8 @@ class loginAndSigninController extends Controller
         $finalFileName = $hashFile.".".$extension;
         Storage::makeDirectory("laravel-file");
         Storage::putFileAs('laravel-file',$file,$file->hashName());
+        $t = Storage::allFiles('laravel-file');
+        dd($t);
         //dd($_POST,$_FILES,$a);
     }
 }
