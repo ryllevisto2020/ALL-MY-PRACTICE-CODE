@@ -65,11 +65,16 @@ private static HttpURLConnection connection;
         
         try (BufferedReader BR = new BufferedReader(new InputStreamReader(connection.getInputStream()))){
             String line;
-            String response = null;
+            String response = "";
             while ((line = BR.readLine())!=null) {                
                 response += line+"\n";
             }
-            System.out.println(response);
+            //System.out.println(response);
+            JSONArray t = new JSONArray(response);
+            System.err.println(t.get(0).toString());
+            
+            JSONObject test1b = new JSONObject(t.get(0).toString());
+            System.out.println(test1b.getString("title"));
         } catch (Exception e) {
         }
     }

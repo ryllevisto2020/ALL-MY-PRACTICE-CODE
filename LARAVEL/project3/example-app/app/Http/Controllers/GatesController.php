@@ -22,7 +22,7 @@ class GatesController extends Controller
 
     }
     public function auth(){
-        auth()->attempt(['email'=>'tamia.adams@example.net','password'=>'password']);
+        auth()->attempt(['email'=>'stan.osinski@example.net','password'=>'password']);
     }
     public function out(){
         auth()->logout();

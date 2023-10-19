@@ -136,11 +136,5 @@
                 </div>
             </div>
         </div>
-        @foreach ($post as $posts)
-        @can('post_only', $posts)
-        <h1>{{$posts->post}}</h1>
-        <a href="/post/{{ $posts->id }}">awd</a>
-        @endcan
-        @endforeach
     </body>
 </html>
