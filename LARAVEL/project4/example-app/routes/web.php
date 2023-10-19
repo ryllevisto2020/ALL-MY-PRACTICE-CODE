@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\logincontroller;
+use App\Http\Controllers\registercontroller;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +18,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/login',[logincontroller::class,'index'])->name('login');
+
+Route::get('/register',[registercontroller::class,'index'])->name('register');
+Route::post('/register/insert',[registercontroller::class,'insert'])->name('register_insert');
+
