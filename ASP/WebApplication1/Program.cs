@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Routing;
-using WebApplication1.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,7 +10,7 @@ builder.Services.AddMvc(
         options.EnableEndpointRouting = false;
         }
 );
-builder.Services.AddTransient<TestServices>();
+//builder.Services.AddTransient<TestServices>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -34,15 +33,15 @@ app.MapRazorPages();
 app.UseMvc(
     routes => {
         routes.MapRoute(
-            name: "test",
-            template: "test",
-            defaults: new { controller = "Home", action = "test" }
+            name: "",
+            template: "",
+            defaults: new { controller = "Index", action = "Index" }
             );
 
         routes.MapRoute(
-            name: "test1",
-            template: "test1",
-            defaults: new { controller = "Home", action = "test1" }
+            name: "account/register",
+            template: "account/register/",
+            defaults: new { controller = "Account", action = "Register" }
             );
     }
 );
