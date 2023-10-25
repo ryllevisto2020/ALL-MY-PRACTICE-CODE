@@ -1,0 +1,13 @@
+﻿@model List<WebApplication1.Model.BookModels>
+@{
+    ViewData["Title"] = "test";
+    int item_length = Model.Count;
+}
+<h1>
+    @for (int i = 0; i < item_length; i++)
+    {
+        <h1>@Model[i].Id : @Model[i].Name</h1>
+    }
+    @ViewBag.Books[0].Name
+</h1>
+
