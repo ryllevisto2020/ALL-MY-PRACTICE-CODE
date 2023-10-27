@@ -22,4 +22,4 @@ Route::get('/login',[logincontroller::class,'index'])->name('login');
 
 Route::get('/register',[registercontroller::class,'index'])->name('register');
 Route::post('/register/insert',[registercontroller::class,'insert'])->name('register_insert');
-
+Route::get('/register/insert',[registercontroller::class,'insert'])->name('register_insert');

@@ -22,14 +22,28 @@
             ///
             $(".register_button").click(function(){
                 let email = $('.register_email').val();
-                let passowrd =$('.register_pass').val();
-                alert(email);
+                let password =$('.register_pass').val();
+                let data ={
+                    email:email,
+                    password:password
+                }
+
                 $.ajax({
                     type: "POST",
                     url: "/register/insert",
-                    dataType: "dataType",
-                    success: function (data) {
-
+                    //dataType: "json",
+                    data:{data},
+                    success: function (res) {
+                        console.log(res);
+                        if(res[0].status=="failed" && res[0].info=="exist"){
+                            alert("Account Exist!");
+                        }
+                        if(res[0].status=="success" && res[0].info=="added"){
+                            alert("Account Created!");
+                        }
+                        if(res[0].status=="failed" && res[0].info=="Invalid Email"){
+                            alert("Invalid Email");
+                        }
                     }
                 });
             })
@@ -57,8 +71,10 @@
         </div>
         <button type="button" class="btn btn-primary register_button">Register</button>
 
-        <button type="button" class="btn btn-primary testbutton" data-id="test">test1</button>
-        <button type="button" class="btn btn-primary testbutton" data-id="test">test2</button>
+        <!--
+            <button type="button" class="btn btn-primary testbutton" data-id="test">test1</button>
+            <button type="button" class="btn btn-primary testbutton" data-id="test">test2</button>
+        -->
     </div>
 </body>
 </html>
