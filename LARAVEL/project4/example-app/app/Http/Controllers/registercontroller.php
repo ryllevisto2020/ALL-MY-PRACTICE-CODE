@@ -39,6 +39,7 @@ class registercontroller extends Controller
                     }
                 } catch (\Throwable $th) {
 
+
                 }
             }
             $data = [

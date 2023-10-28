@@ -15,9 +15,12 @@ ArrayAssociate
 JSONObject
 JSONArray
 HTTPUrlConnection
-Socket
-Tcp/ip
+Socket & Tcp/ip
 Constructor
 OOP
 Function
-awd
+Access Config Properties
+Conditional Statement
+Loop Statement
+Return Statement
+Multi Thread/Threading
