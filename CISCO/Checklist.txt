@@ -1,0 +1,31 @@
+CISCO CONFIG
+
+do show run | sec <section of configuration (router bgp 1(example))>
+do show <>
+
+UP INTERFACE PORT
+	-interface <interface (fa1/0(example))>
+	-no shut
+	-ip address <ip address (192.168.1.1(example))> <netmask (255.255.255.0(example))>
+
+DHCP SETUP
+	-ip dhcp pool <pool name (LAN1(example))>
+	-dns-server <ip of  dns server (8.8.8.8(example))>
+	-network <ip address (192.168.1.1(example))> <netmask (255.255.255.0(example))>
+	-default-router <ip address ip address (192.168.1.1(example))>
+	
+STATIC ROUTES
+	-ip route <destination prefix> <destination prefix mask> <forwarding routers address>
+		-ip route 0.0.0.0 0.0.0.0 192.168.1.1 -> (default route)
+	
+ACCESS-LIST
+	-access-list <ip standard acl/extend acl> <deny/permit/remark> <ip address/any/host> <wildcard bits>
+	-ip access-group <ip standard acl/extend acl> <in/out>
+
+BGP
+	-router bgp <autonomous system number 1-65535 (1(example))>
+	-neighbor <neighbor address (192.168.1.2(example))> remote-as <autonomous system number of neighbor 1-65535 (2(example))>
+	-network <network number (192.168.1.0(example))> mask <network mask (255.255.255.0(example))>
+	
+SAVE CONFIG
+	-copy running-config startup-config

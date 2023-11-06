@@ -26,3 +26,4 @@ Encode
 Decode
 Hash
 Short Tag
+Serial Port Com
