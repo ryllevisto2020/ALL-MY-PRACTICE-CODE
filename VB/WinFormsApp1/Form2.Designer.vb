@@ -22,6 +22,7 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim ListViewItem1 As ListViewItem = New ListViewItem(New String() {"test", "test", "test", "test"}, -1)
         Button1 = New Button()
         ListView1 = New ListView()
         ColumnHeader1 = New ColumnHeader()
@@ -42,6 +43,7 @@ Partial Class Form2
         ' ListView1
         ' 
         ListView1.Columns.AddRange(New ColumnHeader() {ColumnHeader1, ColumnHeader2, ColumnHeader3, ColumnHeader4})
+        ListView1.Items.AddRange(New ListViewItem() {ListViewItem1})
         ListView1.Location = New Point(109, 12)
         ListView1.Name = "ListView1"
         ListView1.Size = New Size(679, 426)

@@ -19,6 +19,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/login',[logincontroller::class,'index'])->name('login');
+Route::post('/login/validate',[logincontroller::class,'login'])->name('login_validate');
+Route::get('/login/validate',[logincontroller::class,'login'])->name('login_validate');
 
 Route::get('/register',[registercontroller::class,'index'])->name('register');
 Route::post('/register/insert',[registercontroller::class,'insert'])->name('register_insert');

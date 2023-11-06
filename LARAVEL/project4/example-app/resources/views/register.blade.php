@@ -44,6 +44,9 @@
                         if(res[0].status=="failed" && res[0].info=="Invalid Email"){
                             alert("Invalid Email");
                         }
+                        if(res[0].status=="failed" && res[0].info=="database"){
+                            alert("Database Error!");
+                        }
                     }
                 });
             })
@@ -57,7 +60,7 @@
 </head>
 <body>
     <h1>Register</h1>
-    <a href="login">Click Here to Login</a>
+    <a href={{ route('login') }}>Click Here to Login</a>
 
     <!--LOGIN FORM-->
     <div>

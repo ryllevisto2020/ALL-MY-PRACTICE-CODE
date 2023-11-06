@@ -11,6 +11,24 @@
 </head>
 <body>
     <h1>Login</h1>
-    <a href="register">Click Here to Register</a>
+    <a href={{ route('register') }}>Click Here to Register</a>
+
+    <!--LOGIN FORM-->
+    <div>
+        <div class="mb-3 mt-3">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" class="form-control register_email" id="email" placeholder="Enter email" name="email">
+        </div>
+        <div class="mb-3">
+          <label for="pwd" class="form-label">Password:</label>
+          <input type="password" class="form-control register_pass" id="pwd" placeholder="Enter password" name="pswd">
+        </div>
+        <button type="button" class="btn btn-primary register_button">Login</button>
+
+        <!--
+            <button type="button" class="btn btn-primary testbutton" data-id="test">test1</button>
+            <button type="button" class="btn btn-primary testbutton" data-id="test">test2</button>
+        -->
+    </div>
 </body>
 </html>

@@ -2,3 +2,6 @@ php artisan serve -> to start server
 php artisan make:controller <name of controller> -> to create new instance of controller
 php artisan make:model <name of model> --m -> to create new instance of model with migration include
 php artisan make:factory <name of factory> -> to create new instance of factory
+composer global require laravel/installer
+laravel new example-app
+php artisan serve --host <ip address> --port <port number>-> to start server

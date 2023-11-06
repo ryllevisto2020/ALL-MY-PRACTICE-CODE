@@ -20,7 +20,7 @@ Public Class RegisterModule
     Private Sub Account_Register()
         connection.Open()
         With _registerModel
-            statement = "INSERT INTO `java_tbl` (`id`, `java_username`, `java_password`, `java_name`) VALUES (NULL, '" + .username + "', '" + .password + "', '" + .name + "');"
+            statement = "INSERT INTO `java_account` (`id`, `java_username`, `java_password`, `java_name`) VALUES (NULL, '" + .username + "', '" + .password + "', '" + .name + "');"
         End With
         cmd = connection.CreateCommand
         cmd.CommandText = statement
@@ -59,7 +59,7 @@ Public Class RegisterModule
     Private Sub Account_Exist()
         connection.Open()
         With _registerModel
-            statement = "SELECT * FROM `java_tbl` WHERE `java_username` LIKE '" + .username + "'"
+            statement = "SELECT * FROM `java_account` WHERE `java_username` LIKE '" + .username + "'"
         End With
         cmd = connection.CreateCommand
         cmd.CommandText = statement

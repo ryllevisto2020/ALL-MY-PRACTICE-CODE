@@ -21,7 +21,7 @@ Public Class LoginModule
         Dim form1 As Form1
         connection.Open()
         With _loginModel
-            statement = "SELECT * FROM `java_tbl` WHERE `java_password` LIKE '" + .password + "' AND `java_username` LIKE '" + .username + "'"
+            statement = "SELECT * FROM `java_account` WHERE `java_password` LIKE '" + .password + "' AND `java_username` LIKE '" + .username + "'"
         End With
         cmd = connection.CreateCommand
         cmd.CommandText = statement
