@@ -1,0 +1,6 @@
+class and function
+components and props
+useState and Array
+Map/Mapping
+Fetch
+Axios
