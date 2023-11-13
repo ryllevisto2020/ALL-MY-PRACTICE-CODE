@@ -1,0 +1,23 @@
+dependency injection
+authorization and authentication
+routing
+controller
+model
+response
+session
+cookie
+crud operation with database
+regex
+
+Guard for authentication/authorization & sanctum
+JWT libraries
+
+
+COMMAND:
+php artisan make:controller <name of controller>
+php artisan make:model <name of model> -m
+php artisan migrate
+php artisan migrate:refresh
+php artisan db:seed
+php artisan make:factory <name of factory>
+php artisan make:middleware <name of middleware>
