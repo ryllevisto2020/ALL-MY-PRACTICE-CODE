@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use Firebase\JWT\JWT;
+use Firebase\JWT\Key;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,5 +15,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $key = "visto";
+    $payload = [
+        "auth"=>true,
+    ];
+    $encode_payload = JWT::encode($payload, $key,'HS512');
+
+    $decode_payload = JWT::decode("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXRoIjpmYWxzZX0.M3SBUF5tzdrXKAlOF8J7sl4K-xutUcnJt9NXjA4AD_IAJYm-KnG6SAj9IwwB7wCY60clpjdvjcv2MAlX6kduQw", new Key($key,'HS512'));
+
+    dd($decode_payload);/*  {#289 ▼ // routes\web.php:26
+                                +"auth": true
+                            }*/
 });

@@ -8,6 +8,7 @@ session
 cookie
 crud operation with database
 regex
+storage and storage link
 
 Guard for authentication/authorization & sanctum
 JWT libraries
@@ -21,3 +22,11 @@ php artisan migrate:refresh
 php artisan db:seed
 php artisan make:factory <name of factory>
 php artisan make:middleware <name of middleware>
+
+routes/web.php -> for routing/routes
+app/http/controllers/<name of controllers -> for controller functions
+app/http/middleware/<name of middleware> -> for middleware functions
+app/http/kernel.php -> for middleware registration
+app/Models/<name of models> -> for models function
+app/Providers/AuthServiceProvider.php -> for gate authorization
+config/auth.php -> for creating guards model for authentication/Sanctum abilities,ability
