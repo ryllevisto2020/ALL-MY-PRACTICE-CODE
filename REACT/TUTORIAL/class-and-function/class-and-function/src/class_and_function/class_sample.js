@@ -1,4 +1,4 @@
-class student{
+class student{//class
     student_id;
     student_name;
     constructor(set_id,set_name){

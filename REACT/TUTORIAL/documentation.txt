@@ -1,6 +1,7 @@
 class and function
 components and props
-useState and Array
-Map/Mapping
+useState and Array and Map/Mapping
 Fetch
 Axios
+Session and cookies
+ref

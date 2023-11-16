@@ -29,3 +29,8 @@ BGP
 	
 SAVE CONFIG
 	-copy running-config startup-config
+
+ROUTER ON STICK(VLAN ON INTERFACE)
+	-interface <name of interface(Gig0/0/0(example))>.<vlan number(.10 -> for vlan 10(example))>
+	-encapsulation dot1Q <vlan number(10 -> for vlan 10(example))>
+	-ip address <ip address (192.168.1.1(example))> <netmask (255.255.255.0(example))>
