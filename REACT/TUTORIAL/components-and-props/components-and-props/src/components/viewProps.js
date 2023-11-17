@@ -1,4 +1,5 @@
 import React from "react";
+
 function ViewProps(props) {
     console.log(props);
     return (
@@ -9,3 +10,4 @@ function ViewProps(props) {
   }
 
 export default ViewProps;
+

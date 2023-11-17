@@ -2,17 +2,17 @@ dependency injection
 authorization and authentication
 routing
 controller
+middleware
 model
 response
 session
 cookie
-crud operation with database
-regex
 storage and storage link
 
 Guard for authentication/authorization & sanctum
 JWT libraries
-
+crud operation with database
+regex
 
 COMMAND:
 php artisan make:controller <name of controller>

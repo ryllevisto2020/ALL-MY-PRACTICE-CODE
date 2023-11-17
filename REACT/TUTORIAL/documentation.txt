@@ -1,7 +1,9 @@
 class and function
 components and props
 useState and Array and Map/Mapping
-Fetch
-Axios
+Fetch and Axios
 Session and cookies
-ref
+react hooks(use,usecallback,usecontexxt,usedebugvalue,useeffect,useid,useimperativehandle,useinsertioneffect,uselayouteffect,
+usememo,useoptimistic,usereducer,useref,usestate,usesyncexternalstore,usetransition)
+
+JWT libraries
