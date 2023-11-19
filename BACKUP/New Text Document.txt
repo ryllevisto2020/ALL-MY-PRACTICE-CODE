@@ -1,0 +1,76 @@
+
+<?php
+echo ("
+    <form method='GET' action='index.php'>
+    <input type='text' name='action'>
+    <input type='submit' value='action'>
+    </form>");
+
+if (isset($_GET['action'])) {
+    # code...
+    if ($_GET['action']=='a') {
+        # code...
+        echo getcwd();
+        $path = __DIR__;
+        $array = array();
+        $result = array();
+        $con = scandir($path);
+        for ($i=0; $i < count($con); $i++) { 
+        # code...
+            array_push($array,"$con[$i]\n");
+            $result[] = '<tr>
+                <td style="border: 1px solid #dddddd;text-align: left;padding: 8px;">'.$con[$i].'</td>
+                <td style="border: 1px solid #dddddd;text-align: left;padding: 8px;">
+                <form method="GET" action="index.php">
+                <input type="submit" value="delete" name="command">
+                </form>
+            </td>
+            </tr>';
+        }
+        $string = implode($array);
+        echo "<table style='font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;'>";
+        for ($i=2; $i < count($con); $i++) { 
+            # code...
+            print_r("
+                <tbody>
+                <th>
+                    $result[$i]
+                </th>
+                </tbody>");
+        }
+        echo "</table>";
+
+    }else if($_GET['action']=='cd..'){
+        
+        echo "<pre>".exec('chdir xampp',$output1,$ret1);"</pre>";
+        print_r($output1);
+    }else{
+        echo "<script>alert('Invalid Action')</script>";
+    }
+}
+
+if (isset($_GET['command'])) {
+    # code...
+}
+
+?>
+
+
+if (isset($_GET['file'])) {
+    # code...
+    $opendir = $_GET['file'];
+    if(is_dir($opendir)){
+        if ($a = opendir($opendir)) {
+            # code...
+            while ($file = readdir($a)) {
+                # code...
+                echo "
+                    <a href='index.php?file=$file'>$file</a><br>
+                    ";
+            }
+            closedir();
+        }
+    }
+}

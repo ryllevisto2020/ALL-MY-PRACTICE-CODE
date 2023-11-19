@@ -1,0 +1,76 @@
+~MYSQL
+WEB REFERENCE
+-------------
+HOW TO ALLOW REMOTE ACCESS => https://www.digitalocean.com/community/tutorials/how-to-allow-remote-access-to-mysql
+
+VIDEO REFERENCE
+---------------
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+~C#
+VIDEO REFERENCE
+---------------
+GRADIENT CONTROL COLOR ==> https://www.youtube.com/watch?v=MuV1QGHI3Vc
+HOTKEY HOOK ==> https://www.youtube.com/watch?v=jwZ-rMDHzxA
+
+WEB REFERENCE
+-------------
+CREATE SHORTCUT FILE ==>https://social.msdn.microsoft.com/Forums/en-US/333add2a-95e7-4fd8-8874-bf21b653cdac/create-shortcut-using-net?forum=Vsexpressvb
+.NET REMOTING ==> https://www.dotnetheaven.com/article/.net-remoting-in-a-simple-way-in-vb.net
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+~VISUAL BASIC
+VIDEO REFERENCE
+---------------
+GRADIENT CONTROL COLOR ==> https://www.youtube.com/watch?v=MuV1QGHI3Vc
+HOTKEY HOOK ==> https://www.youtube.com/watch?v=jwZ-rMDHzxA
+
+WEB REFERENCE
+-------------
+CREATE SHORTCUT FILE ==>https://social.msdn.microsoft.com/Forums/en-US/333add2a-95e7-4fd8-8874-bf21b653cdac/create-shortcut-using-net?forum=Vsexpressvb
+.NET REMOTING ==> https://www.dotnetheaven.com/article/.net-remoting-in-a-simple-way-in-vb.net
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+~REACT JS
+VIDEO REFERENCE
+---------------
+SETSTATE, SETTING ARRAYS STATE, OBJECT ATTRIBUTES STATE, ETC ==> https://www.youtube.com/watch?v=PzR1oAB5GHE
+
+WEB REFERENCE
+-------------
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+~JAVA
+VIDEO REFERENCE
+---------------
+
+WEB REFERENCE
+-------------
+HOW TO FIX NUMBER FORMAT EXCEPTION ==> https://www.tutorialkart.com/java/numberformatexception/
+CREATING A NEW FILE ==> https://howtodoinjava.com/java/io/how-to-create-a-new-file-in-java/#:~:text=1.%20Create%20file%20with%20java.nio.file.Files.%20Files.write%20%28%29%20is,writes%20lines%20of%20text%20to%20the%20created%20file.
+CREATE ARRAY OF OBJECT ==> https://www.geeksforgeeks.org/how-to-create-array-of-objects-in-java/
+JDBC MYSQL ==> https://www.javatpoint.com/example-to-connect-to-the-mysql-database
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+~XAMARIN ANDROID
+VIDEO REFERENCE
+---------------
+HOW TO CREATE ANDROID SIMPLE APP USING XAMARIN FORMS ==> https://www.youtube.com/watch?v=U9E6sq2phro
+
+WEB REFERENCE
+-------------
+XAMARIN FORMS ==> https://learn.microsoft.com/en-us/dotnet/api/xamarin.forms.button.clicked?view=xamarin-forms
+XAMARIN FORMS ==> https://help.syncfusion.com/xamarin/button/event?cs-save-lang=1&cs-lang=csharp
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+~KOTLIN 
+WEB REFERENCE
+-------------
+https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/
+

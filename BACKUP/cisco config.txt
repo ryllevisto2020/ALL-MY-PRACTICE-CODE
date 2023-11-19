@@ -1,0 +1,296 @@
+  aaa                         Authentication, Authorization and Accounting.
+  aal2-profile                Configure AAL2 profile
+  *access-list                 Add an access list entry
+  alarm-interface             Configure a specific Alarm Interface Card
+  alias                       Create command alias
+  alps                        Configure Airline Protocol Support
+  appfw                       Configure the Application Firewall policy
+  appletalk                   Appletalk global configuration commands
+  application                 Define application
+  arap                        Appletalk Remote Access Protocol
+  archive                     Archive the configuration
+  arp                         Set a static ARP entry
+  async-bootp                 Modify system bootp parameters
+  atm                         Enable ATM SLM Statistics
+  auto                        Configure Automation
+  backhaul-session-manager    Configure Backhaul Session Manager
+  banner                      Define a login banner
+  bba-group                   Configure BBA Group
+  beep                        Configure BEEP (Blocks Extensible Exchange
+                              Protocol)
+  boot                        Modify system boot parameters
+  bridge                      Bridge Group.
+  bstun                       BSTUN global configuration commands
+  buffers                     Adjust system buffer pool parameters
+  busy-message                Display message when connection to host fails
+  call                        Configure Call parameters
+  call-history-mib            Define call history mib parameters
+  call-manager-fallback       SRST for Cisco Call Manager fallback. For Cisco
+                              Unified Communications Manager Express
+                              configuration use the 'telephony-service' command
+  capf-server                 CAPF Server
+  carrier-id                  Name of the carrier associated with this trunk
+                              group
+  ccm-manager                 Call Manager
+  cdp                         Global CDP configuration subcommands
+  cem                         Configure a specific cem channel
+  chat-script                 Define a modem chat script
+  class-map                   Configure Class Map
+  clns                        Global CLNS configuration subcommands
+  clock                       Configure time-of-day clock
+  cns                         CNS agents
+  config-register             Define the configuration register
+  configuration               Configuration access
+  connect                     cross-connect two interfaces
+  control-plane               Configure control plane services
+  credentials                 credentials service
+  crypto                      Encryption module
+  ctl-client                  CTL Client
+  decnet                      Global DECnet configuration subcommands
+  default                     Set a command to its defaults
+  default-value               Default character-bits values
+  define                      interface range macro definition
+  dial-control-mib            Define Dial Control Mib parameters
+  dial-peer                   Dial Map (Peer) configuration commands
+  dialer                      Dialer commands
+  dialer-list                 Create a dialer list entry
+  diffserv                    Differentiated Services (COPS)
+  dlsw                        Data Link Switching global configuration commands
+  dnsix-dmdp                  Provide DMDP service for DNSIX
+  dnsix-nat                   Provide DNSIX service for audit trails
+  do                          To run exec commands in config mode
+  dot1x                       IEEE 802.1X Global Configuration Commands
+  downward-compatible-config  Generate a configuration compatible with older
+                              software
+  dspfarm                     Enable the dspfarm service
+  dspu                        DownStream Physical Unit Command
+  dss                         Configure dss parameters
+  enable                      Modify enable password parameters
+  end                         Exit from configure mode
+  eou                         EAPoUDP Global Configuration Commands
+  ephone                      define ethernet phone
+  ephone-dn                   Configure ephone phone lines (Directory Numbers)
+  ephone-dn-template          Define ephone-dn-template tag
+  ephone-hunt                 Define ephone hunt group number
+  errdisable                  Error disable
+  event                       Event related configuration commands
+  exception                   Exception handling
+  exit                        Exit from configure mode
+  fax                         Configure fax parameters
+  file                        Adjust file system parameters
+  flow                        Global Flow configuration subcommands
+  flow-sampler-map            Flow sampler configuration
+  frame-relay                 global frame relay configuration commands
+  gateway                     Gateway
+  gw-accounting               Enable voip gateway accounting.
+  help                        Description of the interactive help system
+  hms                         HMS related config
+  hostname                    Set system's network name
+  http                        HTTP Config
+  identity                    Identity Configuration Commands
+  interface                   Select an interface to configure
+  ip                          Global IP configuration subcommands
+  ipc                         Configure IPC system
+  iphc-profile                Configure IPHC profile
+  ipv6                        Global IPv6 configuration commands
+  ipx                         Novell/IPX global configuration commands
+  irec-agent                  IREC Agent service
+  isis                        Global ISIS configuration subcommands
+  iua                         Configure ISDN user Adaptation Layer
+  ivr                         ivr utility command
+  ixi                         IXI Config command
+  kerberos                    Configure Kerberos
+  key                         Key management
+  keymap                      Define a new keymap
+  kron                        Kron interval Facility
+  l2                          Layer 2 configuration
+  l2tp-class                  l2tp-class configuration
+  lane                        Configure LAN Emulation
+  lat                         DEC Local Area Transport (LAT) transmission
+                              protocol
+  li-view                     LI View
+  line                        Configure a terminal line
+  load                        Load Protocol
+  locaddr-priority-list       Establish queueing priorities based on LU address
+  logging                     Modify message logging facilities
+  login                       Enable secure login checking
+  login-string                Define a host-specific login string
+  mac-address-table           Configure the MAC address table
+  macro                       Create a command macro
+  map-class                   Configure static map class
+  map-list                    Configure static map list
+  memory                      Configure memory management
+  memory-size                 Adjust memory size by percentage
+  menu                        Define a user-interface menu
+  mgcp                        Enable Media Gateway Control Protocol
+  microcode                   configure microcode
+  mls                         mls global commands
+  mmoip                       Multi Media Over IP
+  modemcap                    Modem Capabilities database
+  monitor                     Monitoring different system events
+  mop                         Configure the DEC MOP Server
+  mpls                        Configure MPLS parameters
+  mpoa                        MPOA global configuration commands
+  mrcp                        MRCP(Real Time Streaming Protocol) configuration
+  mta                         Configure the Mail Transfer Agent
+  multilink                   PPP multilink global configuration
+  ncia                        Native Client Interface Architecture
+  netbios                     NETBIOS access control filtering
+  netconf                     Configure NETCONF
+  network-clock-participate   Participate in Network Clocking
+  network-clock-select        Choose system clocking priority
+  no                          Negate a command or set its defaults
+  ntp                         Configure NTP
+  num-exp                     Dial Map Number Expansion configuration commands
+  oer                         Optimized Exit Routing configuration submodes
+  oer-map                     Create oer-map and enter oer-map command mode
+  parameter-map               parameter map
+  parser                      Configure parser
+  password                    Configure encryption password (key)
+  policy-manager              Policy Manager configuration commands
+  policy-map                  Configure Policy Map
+  port-channel                EtherChannel configuration
+  ppp                         PPP global configuration
+  presence                    presence service submode
+  printer                     Define an LPD printer
+  priority-list               Build a priority list
+  privilege                   Command privilege parameters
+  process                     Configure process
+  process-max-time            Maximum time for process to run before
+                              voluntarily relinquishing processor
+  prompt                      Set system's prompt
+  pseudowire-class            Pseudowire-class configuration
+  queue-list                  Build a custom queue list
+  random-detect-group         Configure random-detect class
+  rbe                         Commands for Routing RFC 1483 Ethernet
+                              encapsulated packets
+  redundancy                  Enter redundancy mode
+  regexp                      regexp commands
+  resource                    Configure Embedded Resource Manager (ERM)
+  resume-string               Define a host-specific resume string
+  rif                         Source-route RIF cache
+  rlm                         Configure a specific rlm
+  rlogin                      Rlogin configuration commands
+  rmon                        Remote Monitoring
+  route-map                   Create route-map or enter route-map command mode
+  router                      Enable a routing process
+  rsrb                        RSRB LSAP/DSAP filtering
+  rtsp                        RTSP(Real Time Streaming Protocol) configuration
+  sampler                     Define a Sampler
+  sap-priority-list           Establish queueing priorities based on SAP and/or
+                              MAC address(es)
+  sasl                        Configure SASL
+  sccp                        Enable Skinny Client Control Protocol
+  scheduler                   Scheduler parameters
+  scripting                   Configure options for scripting languages
+  secure                      Secure image and configuration archival commands
+  security                    Infra Security CLIs
+  service                     Modify use of network based services
+  settlement                  Configure a specific settlement
+  sgbp                        SGBP Stack Group Bidding Protocol configuration
+  shutdown                    Shutdown system elements
+  signaling-class             Configure signaling class
+  sip-ua                      SIP User Agent (UA)
+  sna                         Network Management Physical Unit Command
+  snmp                        Modify non engine SNMP parameters
+  snmp-server                 Modify SNMP engine parameters
+  sntp                        Configure SNTP
+  source-bridge               Source-route bridging ring groups
+  spanning-tree               Spanning Tree Subsystem
+  srcp                        Enable Simple Resource Coordination Protocol
+  stackmaker                  Specify stack name and add its member
+  stacks                      Configure stacks
+  standby                     Global HSRP configuration commands
+  state-machine               Define a TCP dispatch state machine
+  stcapp                      Start SCCP Telephony Control Application
+  stun                        STUN global configuration commands
+  subscriber                  Subscriber configuration
+  subscriber-policy           Subscriber policy
+  subscription                ASNL based Subscriptions configuration
+  table-map                   Configure Table Map
+  tacacs-server               Modify TACACS query parameters
+  tag-switching               Dynamic Tag Switching commands
+  tarp                        Global TARP configuration subcommands
+  telephony-service           Configure Cisco Unified Communications Manager
+                              Express
+  template                    Select a template to configure
+  terminal-queue              Terminal queue commands
+  tftp-server                 Provide TFTP service for netload requests
+  tgrep                       Enable TGREP
+  tidp                        Configure TIDP services
+  time-range                  Define time range entries
+  tms                         TMS related config
+  tn3270                      tn3270 configuration command
+  track                       Object tracking configuration commands
+  translate                   Translate global configuration commands
+  translation-rule            Global digit manipulation and translation
+  trunk                       Global trunk configuration
+  ttycap                      Define a new termcap
+  username                    Establish User Name Authentication
+  vc-group                    Define a Frame Relay VC group
+  virtual-profile             Virtual Profile configuration
+  virtual-template            Virtual Template configuration
+  vlan                        VLAN commands
+  vm-integration              enable in-band DTMF integration with voicemail
+                              systems
+  voice                       Global voice configuration
+  voice-card                  Configure a specific voice-card
+  voip-incoming               Global incoming VoIP configuration
+  vpdn                        Virtual Private Dialup Network
+  vpdn-group                  VPDN group configuration
+  vpdn-template               vpdn-template configuration
+  vtp                         Configure global VTP state
+  vty-async                   Enable virtual async line configuration
+  vxml                        VXML Interpreter configuration commands
+  warm-reboot                 Warm reboot allows quick reload in case of a
+                              crash or by request
+  webvpn                      SSL VPN Commands
+  wrr-queue                   Configure weighted round-robin xmt queues
+  x25                         X.25 Level 3
+  x29                         X29 commands
+  xconnect                    Xconnect config commands
+  xot                         Global XOT commands
+  zone                        FW with zoning
+  zone-pair                   Zone pair command
+
+IN = All packets coming IN to interface
+OUT = All packets coming OUT to interface
+NETWORK = 0.0.0.0/0 or X.X.X.X/X
+ADDRESS = 0.0.0.0 or X.X.X.X
+MASK = 255.255.255.255 or X.X.X.X
+
+ACCESS-LIST = DENY AND PERMIT ONLY
+ROUTE-MAP = DENY/PERMIT IN SPECIFIC ROUTE AND ROUTE IN ANOTHER 
+
+FILTER-LIST/PREFIX-LIST/DISTRIBUTE-LIST/ROUTE-MAPS
+
+ACCESS-GROUP/DISTRIBUTE-LIST = COMMAND THAT THEY HAVE IN AND OUT
+
+CONFIGURATION FOR ACL STATIC ROUTE
+	Router(config)#access-list 1 deny host ANY_HOST
+	Router(config-if)#ip access-group 1 in
+
+CONFIGURATION FOR ACL BGP ROUTE
+	Router(config)#access-list 1 deny host ANY_HOST
+	Router(config)#router bgp ANY_NUMBER
+	Router(config-router)#distribute-list 1 in
+
+CONFIGURATIONF FOR ROUTE MAP STATIC ROUTE
+ 	Router(config)#access-list 1 permit host ANY_HOST
+	Router(config)#route-map ANY_NAME 
+	Router(config-route-map)#match ip address 1
+	Router(config-route-map)#set interface ANY_INTERFACE or Router(config-route-map)#set ip next-hop ANY_ADDRESS
+
+	Router(config)#int ANY_INTERFACE
+	Router(config-if)#ip policy route-map ANY_NAME
+
+CONFIGURATION FOR STATIC ROUTE
+	Router(config)#ip route 0.0.0.0 0.0.0.0 ANY_ADDRESS -> DEFAULT ROUTE
+	Router(config)#ip route ANY_NETWORK ANY_MASK ANY_ADDRESS
+
+CONFIGURATION FOR IP 
+	Router(config)#int ANY_INTEFACE
+	Router(config-if)#ip address ANY_ADDRESS ANY_MASK
+	Router(config-if)#no shutdown
+
+

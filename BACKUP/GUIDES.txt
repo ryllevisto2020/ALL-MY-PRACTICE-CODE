@@ -1,0 +1,25 @@
+Variables
+Variable Initialize
+Array
+Array Initialize
+Functtion
+OOP
+Constructor
+JSON(encode,decode,serialized,deserialize,stringify,jsonify)
+API
+REGEX
+NEtworking socket tcp/ip
+authentication
+authorization
+
+--Gui and DoS Application
+Array/Collection
+OOP(inheritance,polymorphism,encapsulation,classes,object,abstraction,constructor)
+Function/Method
+Variables
+JSON(encode,decode,serialized,deserialize,stringify,jsonify)
+Regex
+MySql Database(Create,Read,Update,Delete)
+Networking & socket & tcp/ip
+Printing/Printer
+Http Request

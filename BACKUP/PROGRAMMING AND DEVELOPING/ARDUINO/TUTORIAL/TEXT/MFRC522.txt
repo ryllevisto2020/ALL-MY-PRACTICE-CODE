@@ -1,0 +1,5 @@
+PCD_Init() // for Initiate or start
+PICC_IsNewCardPresent() // look for new cards
+PICC_ReadCardSerial() // select one of the cards
+PICC_DumpMifareClassicSectorToSerial(&(uid), &key, sector); // display the data from specific sector
+

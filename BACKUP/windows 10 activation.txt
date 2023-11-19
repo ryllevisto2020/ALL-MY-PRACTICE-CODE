@@ -1,0 +1,54 @@
+https://www.youtube.com/watch?v=EBFjckMkOu0
+
+WINDOWS 10, ALL SUPPORTED SEMI-ANNUAL CHANNEL VERSIONS
+Operating system edition KMS Client Setup Key
+Windows 10 Pro W269N-WFGWX-YVC9B-4J6C9-T83GX
+Windows 10 Pro N MH37W-N47XK-V7XM9-C7227-GCQG9
+Windows 10 Pro for Workstations NRG8B-VKK3Q-CXVCJ-9G2XF-6Q84J
+Windows 10 Pro for Workstations N 9FNHH-K3HBT-3W4TD-6383H-6XYWF
+Windows 10 Pro Education 6TP4R-GNPTD-KYYHQ-7B7DP-J447Y
+Windows 10 Pro Education N YVWGF-BXNMC-HTQYQ-CPQ99-66QFC
+Windows 10 Education NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
+Windows 10 Education N 2WH4N-8QGBV-H22JP-CT43Q-MDWWJ
+Windows 10 Enterprise NPPR9-FWDCX-D2C8J-H872K-2YT43
+Windows 10 Enterprise N DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
+Windows 10 Enterprise G YYVX9-NTFWV-6MDM3-9PT4T-4M68B
+Windows 10 Enterprise G N 44RPN-FTY23-9VTTB-MP9BX-T84FV
+Windows 10 Home - TX9XD-98N7V-6WMQ6-BX7FG-H8Q99 (not yet tested but you can try)
+
+Windows 10 activation Guide (Please see solution below sa mga nag error sa Step 5)
+
+
+windowkey+r=run command and type regedit then enter
+open cmd as admin
+
+Computer\HKEY_CURRENT_USER\Control Panel\Desktop    - regedit
+chnage value to 4
+
+gpupdate /force                                      -CMD
+Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\svsvc
+@start change value to 4 
+under svsvc right click then type KMS
+then under KMS type kms_4 in value data field then enter
+gpupdate /force                                      -CMD
+
+slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX         -CMD
+slmgr /skms kms8.msguides.com
+slmgr /ato
+
+Computer\HKEY_CURRENT_USER\Control Panel\Desktop    - regedit
+chnage value  back to 0
+gpupdate /force                                      -CMD
+
+end
+=================================================
+STEP 5 : common error cause and solution
+1. Siguraduhin na pag ioopen ang cmd at registry editor dapat naka " Run as administrator"
+
+2. double check ang command na na type pag may mali mag eerror talaga
+
+3. double check ang CD key na naitype or na ipaste ito pong nasa video tutorial ay para sa windows 10 pro at iba pang win10 versions pero hindi po siya gumagana sa windows 10 Home edition pero 
+subukan ko po gumawa ng tutorial sa win10 home.
+
+4. Double check ang internet connection dapat smooth ang internet connection kasi nagcoconnect
+sa KMS server pag nasa step 5 na, pag okay naman ang internet connection try lang after few minutes minsan sa KMS server din ang may problema.

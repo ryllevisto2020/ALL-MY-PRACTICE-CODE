@@ -1,0 +1,35 @@
+programming for software
+-vb.net
+-c#.net
+-java
+
+programming for website
+-html
+-css
+-php
+
+includes all framework
+
+programming for android
+-kotlin
+-java
+-xamarin	
+
+programming for ios
+-xamarin
+-swift
+
+programming for database
+-mysql
+
+programming languages
+-c
+-c++
+-c#
+-python
+-java
+
+thing that i know
+threading/thread
+database connection
+web socket/tcpIP

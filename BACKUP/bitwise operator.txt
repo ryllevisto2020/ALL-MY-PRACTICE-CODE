@@ -1,0 +1,50 @@
+--BITWISE OPERATOR--
+NOTE for BITWISE OPERATOR (XOR) 
+DIFFERENCE value is 1
+SAME value is 0
+
+          16  8  4  2  1
+
+x=20      1   0  1  0  0
+
+^y=10     0   1  0  1  0
+	
+	  1   1  1  1  0 => 30
+
+	  1   0  1  0  0
+
+	  0   1  0  1  0 = > 10
+
+^y=10     0   1  0  1  0
+	
+	  1   0  1  0  0 => 20
+
+^y=10	  0   1  0  1  0
+
+	  1   1  1  1  0 => 30	
+
+
+NOTE for BITWISE OPERATOR (OR) 
+SAME 0 is 0
+DIFFERENCE is 1
+SAME 1 is 1
+
+          16  8  4  2  1
+
+x=20      1   0  1  0  0
+
+|y=10     0   1  0  1  0
+
+	  1   1  1  1  0 => 30
+
+|y=10     0   1  0  1  0
+
+	  1   1  1  1  0 => 30
+
+|y=10	  0   1  0  1  0
+
+	  1   1  1  1  0 => 30
+
+
+
+

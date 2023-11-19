@@ -1,0 +1,17 @@
+E:\PROGRAMMING and DEVELOPING\SOFTWARE\VISUAL BASIC\PROJECT\OOP PROJECT\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.exe
+E:\PROGRAMMING and DEVELOPING\SOFTWARE\VISUAL BASIC\PROJECT\OOP PROJECT\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.deps.json
+E:\PROGRAMMING and DEVELOPING\SOFTWARE\VISUAL BASIC\PROJECT\OOP PROJECT\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.runtimeconfig.json
+E:\PROGRAMMING and DEVELOPING\SOFTWARE\VISUAL BASIC\PROJECT\OOP PROJECT\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.dll
+E:\PROGRAMMING and DEVELOPING\SOFTWARE\VISUAL BASIC\PROJECT\OOP PROJECT\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.pdb
+E:\PROGRAMMING and DEVELOPING\SOFTWARE\VISUAL BASIC\PROJECT\OOP PROJECT\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.vbproj.AssemblyReference.cache
+E:\PROGRAMMING and DEVELOPING\SOFTWARE\VISUAL BASIC\PROJECT\OOP PROJECT\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Form1.resources
+E:\PROGRAMMING and DEVELOPING\SOFTWARE\VISUAL BASIC\PROJECT\OOP PROJECT\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.vbproj.GenerateResource.cache
+E:\PROGRAMMING and DEVELOPING\SOFTWARE\VISUAL BASIC\PROJECT\OOP PROJECT\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+E:\PROGRAMMING and DEVELOPING\SOFTWARE\VISUAL BASIC\PROJECT\OOP PROJECT\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+E:\PROGRAMMING and DEVELOPING\SOFTWARE\VISUAL BASIC\PROJECT\OOP PROJECT\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.AssemblyInfo.vb
+E:\PROGRAMMING and DEVELOPING\SOFTWARE\VISUAL BASIC\PROJECT\OOP PROJECT\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.vbproj.CoreCompileInputs.cache
+E:\PROGRAMMING and DEVELOPING\SOFTWARE\VISUAL BASIC\PROJECT\OOP PROJECT\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.dll
+E:\PROGRAMMING and DEVELOPING\SOFTWARE\VISUAL BASIC\PROJECT\OOP PROJECT\WinFormsApp1\obj\Debug\net6.0-windows\refint\WinFormsApp1.dll
+E:\PROGRAMMING and DEVELOPING\SOFTWARE\VISUAL BASIC\PROJECT\OOP PROJECT\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.pdb
+E:\PROGRAMMING and DEVELOPING\SOFTWARE\VISUAL BASIC\PROJECT\OOP PROJECT\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.genruntimeconfig.cache
+E:\PROGRAMMING and DEVELOPING\SOFTWARE\VISUAL BASIC\PROJECT\OOP PROJECT\WinFormsApp1\obj\Debug\net6.0-windows\ref\WinFormsApp1.dll

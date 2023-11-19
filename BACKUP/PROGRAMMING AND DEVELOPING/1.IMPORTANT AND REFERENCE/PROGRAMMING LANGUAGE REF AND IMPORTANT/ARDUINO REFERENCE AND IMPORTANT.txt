@@ -1,0 +1,12 @@
+TYPE:
+
+
+
+PROPERTIES:
+
+
+Libraries:
+MFRC522
+Servo
+Stepper
+IRremote
