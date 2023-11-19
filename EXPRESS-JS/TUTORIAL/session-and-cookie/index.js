@@ -9,14 +9,13 @@ app.use(cors({
 }));
 app.use(cookieParser());
 
-app.get('/session',(req,res)=>{
-    console.log(req.headers.cookies);
-    res.set({
-        'Access-Control-Expose-Headers': 'token-auth',
-        'Content-Type': 'application/json',
-        'Content-Length': '1',
-        'token-auth': '12345-qwe'
-      })
+app.get('/cookie-session/get',(req,res)=>{
+    let cookie_1 = req.cookies; //Cookie=awd;Session=true
+    console.log(cookie_1["Cookie"]);
+
+    //let cookie_2 = req.headers.cookie; //{"Cookie":"awd","Session":"true"}
+    //let parse_cookie_2 = JSON.parse(cookie_2); //{Cookie:'awd',Session:'true'}
+    //console.log(parse_cookie_2["Session"]);
     res.send("success");
 })
 
