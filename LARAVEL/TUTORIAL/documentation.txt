@@ -9,6 +9,8 @@ session
 cookie
 storage and storage link
 
+Set Request & response headers -> to inspect request & response headers use dd(<request variables>)
+Get Request & response headers ->
 Guard for authentication/authorization & sanctum
 JWT libraries
 crud operation with database

@@ -1,0 +1,8 @@
+middleware
+routing
+express(express.json(),express.raw(),express.Router(),express.static(),express.text(),express.urlencoded())
+session and cookie
+
+Set Request & response headers -> to inspect request & response headers use console.log(<request variables>)
+Get Request & response headers ->
+JWT libraries

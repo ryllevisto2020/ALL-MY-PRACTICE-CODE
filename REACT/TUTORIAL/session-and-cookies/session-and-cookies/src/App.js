@@ -3,6 +3,22 @@ import { useEffect , useRouter, useState} from 'react';
 import useSessionStorageState from 'use-session-storage-state'
 let count = 0;
 function App() {
+
+  let token_auth;
+  function test(){
+    fetch("http://localhost:3080/session",{
+      method:"GET",
+      headers:{
+        "Content-type":"application/json"
+      },
+    }).then(async function(res){
+      token_auth = res.headers.get("token-auth");
+      Cookies.set("token-auth",token_auth);
+    }).catch(function(err){
+      console.log(err)
+    })
+  }
+
   const [todos, setTodos] = useSessionStorageState()
   let [arr,setArr] = useState([]);
   //Set Session
@@ -44,7 +60,7 @@ function App() {
   //console.log(get_cookie());
 
   useEffect(()=>{
-    
+    test()
   },[])
   
   return (
