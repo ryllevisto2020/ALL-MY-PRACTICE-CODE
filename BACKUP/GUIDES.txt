@@ -13,13 +13,45 @@ authentication
 authorization
 
 --Gui and DoS Application
-Array/Collection
-OOP(inheritance,polymorphism,encapsulation,classes,object,abstraction,constructor)
+Array/Collection/Types of Array
+OOP(inheritance,polymorphism,encapsulation,classes,object,abstraction,constructor,interface,abstract)
 Function/Method
+Conditional Statement(If,If...else,Switch)
+Loop Statement(For Loop,While Loop,Do While Loop)
 Variables
 JSON(encode,decode,serialized,deserialize,stringify,jsonify)
 Regex
 MySql Database(Create,Read,Update,Delete)
 Networking & socket & tcp/ip
+Access Protocol(SSH,FTP,etc)
 Printing/Printer
-Http Request
+Http Request & Response
+Design Pattern
+Repository Pattern
+Fluent Interface
+Services/Dependency Injection
+Model View Controller
+threading/multi threading
+Async/Sync/Await
+File Handling
+Create Components
+View/Generate Documents(PDF,DOX,etc)
+
+--Web
+Session
+Cookie
+Token
+Authorization
+Authentication
+Custom and Access Header Request/Response
+Access Request/Response
+Send Http Request
+Model View Controller Routing/Routes
+Get Parameter/Query/Route Values from URL
+File Upload/File Handling
+Services/Dependency Injection
+Serial Communication
+Rendering/Server Side Rendering/Client Side Rendering/Server Components
+DOM
+Generate Document(PDF,DOCX,etc)
+Print Document(PDF,DOCX,etc)

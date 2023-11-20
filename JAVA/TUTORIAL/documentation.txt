@@ -1,2 +1,11 @@
 HTTPUrlConnection
 Collection Class
+Loop Statement
+Conditional Statement
+Function/Method
+OOP(inheritance,polymorphism,encapsulation,classes,object,abstraction,constructor)
+Services/Dependency Injection
+JSON(Array,Object)
+(Design Pattern)
+(Repository Pattern)
+(Fluent Interface)

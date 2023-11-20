@@ -16,6 +16,21 @@ public class CollectionClass {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        String arr[] = {"1","2"};
+        for (String string : arr) {
+            System.err.println(string);
+        }
+        String arr_ph1[] = new String[2];
+        arr_ph1[0] = "hello";
+        arr_ph1[1] = "world";
+        for (String string : arr_ph1) {
+            System.err.println(string);
+        }
+        
+        ArrayList arraylist = new ArrayList();
+        arraylist.add("hello World");
+        System.err.println(arraylist);
+        
         Dictionary<String,String> dict;
         dict = new Hashtable<>();
         dict.put("Name", "visto");
@@ -24,8 +39,5 @@ public class CollectionClass {
         List<String> list = new ArrayList<>();
         list.add("visto");
         System.err.println(list);
-        
-        System.err.println();
-        
     }
 }
