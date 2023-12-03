@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\account;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,13 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/register', function () {
-    return view('register');
+Route::get('/', function () {
+    return view('welcome');
 });
-
-
-Route::controller(account::class)->group(function (){
-    Route::get('/account/register','register');
-    Route::get('/account/register/submit','submit')->middleware(['submit_auth']);
-});
-
