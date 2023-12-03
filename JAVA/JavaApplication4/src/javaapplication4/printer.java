@@ -3,27 +3,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 package javaapplication4;
-import java.awt.print.PageFormat;
-import java.awt.print.Paper;
 import java.awt.print.PrinterException;
 import java.awt.print.PrinterJob;
 import java.io.File;
 import java.io.IOException;
-import java.util.Locale;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.print.PrintService;
-import javax.print.attribute.HashPrintRequestAttributeSet;
-import javax.print.attribute.PrintRequestAttributeSet;
-import javax.print.attribute.standard.Copies;
-import javax.print.attribute.standard.JobName;
-import javax.print.attribute.standard.PageRanges;
-import javax.print.attribute.standard.MediaSize;
-import javax.print.attribute.standard.MediaSizeName;
-import javax.print.attribute.standard.PrinterName;
 import org.apache.pdfbox.Loader;
 import org.apache.pdfbox.pdmodel.PDDocument;
-import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.printing.*;
 /**
  *
@@ -113,7 +101,7 @@ public class printer extends javax.swing.JFrame {
                 Logger.getLogger(printer.class.getName()).log(Level.SEVERE, null, ex);
             }
             //pj.setPageable(pageable);
-            //pj.setPrintable(printable);
+            pj.setPrintable(printable);
            
             pj.print();
            

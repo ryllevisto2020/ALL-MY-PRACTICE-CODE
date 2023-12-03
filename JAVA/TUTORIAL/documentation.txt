@@ -6,6 +6,9 @@ Function/Method
 OOP(inheritance,polymorphism,encapsulation,classes,object,abstraction,constructor)
 Services/Dependency Injection
 JSON(Array,Object)
+Printer/Print Documents(PDF,DOCX,etc)
+(Interface and Abstract Class)
+(OpenCv -> for face recognition and open camera)
 (Design Pattern)
 (Repository Pattern)
 (Fluent Interface)
