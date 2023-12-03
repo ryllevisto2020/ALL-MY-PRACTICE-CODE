@@ -36,6 +36,7 @@ Async/Sync/Await
 File Handling
 Create Components
 View/Generate Documents(PDF,DOX,etc)
+Report Viewer
 
 --Web
 Session

@@ -16,6 +16,7 @@ app.get('/cookie-session/get',(req,res)=>{
     //let cookie_2 = req.headers.cookie; //{"Cookie":"awd","Session":"true"}
     //let parse_cookie_2 = JSON.parse(cookie_2); //{Cookie:'awd',Session:'true'}
     //console.log(parse_cookie_2["Session"]);
+    res.cookie("Cookie",cookie_1["Cookie"]);
     res.send("success");
 })
 
