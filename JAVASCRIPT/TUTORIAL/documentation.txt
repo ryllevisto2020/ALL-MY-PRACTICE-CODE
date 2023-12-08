@@ -8,4 +8,5 @@
 --JAVASCRIPT
 
 --JSPDF -> generate PDF
-	
+--HTML2CANVASS
+--HTML2PDF

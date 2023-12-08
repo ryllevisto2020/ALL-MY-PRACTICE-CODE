@@ -2,6 +2,10 @@ OOP
 Session and Cookie
 JSON(encode,decode)
 File Upload
+Execute Command
+SSH
+(DomPDF)
+(TCPDF)
 (Mysqli)
 
 Set Request & response headers -> to inspect request & response headers use var_dump(<request variables>)
