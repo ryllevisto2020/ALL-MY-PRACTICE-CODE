@@ -33,7 +33,7 @@ Services/Dependency Injection
 Model View Controller
 threading/multi threading
 Async/Sync/Await
-File Handling
+File Handling/Reading/Writing
 Create Components
 View/Generate Documents(PDF,DOX,etc)
 Report Viewer
