@@ -1,1 +1,2 @@
 https://www.baeldung.com/java-opencv
+https://howtodoinjava.com/java/library/read-generate-pdf-java-itext/
