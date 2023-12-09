@@ -41,9 +41,10 @@ Execute Command
 Get Path of the File
 Configuration Files
 Key Events/Mouse Events/Handlers/Event Handlers
-Char/Pie Chart etc
+Chart/Pie Chart etc
 Return Statement(String/Integer/Object etc)
 API Integration using Http Request
+Open Dialog(Print Dialog/File Dialog/etc)
 
 --Web
 Session
