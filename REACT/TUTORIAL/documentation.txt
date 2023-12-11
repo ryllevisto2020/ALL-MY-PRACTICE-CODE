@@ -6,6 +6,10 @@ Session and cookies
 react hooks(use,usecallback,usecontexxt,usedebugvalue,useeffect,useid,useimperativehandle,useinsertioneffect,uselayouteffect,
 usememo,useoptimistic,usereducer,useref,usestate,usesyncexternalstore,usetransition)
 router
+(Redux)
+(higher order components)
+(refs and forwardRefs)
+(Method Props)
 (React-pdf)
 (React-to-print)
 (React-to-pdf)
