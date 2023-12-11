@@ -16,6 +16,7 @@ import com.mysql.cj.jdbc.Driver;
 import java.awt.print.PrinterJob;
 import java.sql.Connection;
 import java.sql.*;
+import net.sf.jasperreports.engine.JasperExportManager;
 import net.sf.jasperreports.engine.JasperPrintManager;
 import net.sf.jasperreports.engine.design.JRDesignQuery;
 import net.sf.jasperreports.engine.design.JasperDesign;
@@ -95,6 +96,9 @@ public class NewJFrame extends javax.swing.JFrame {
             
             //View Report
             JasperViewer.viewReport(print);
+            
+            //Save Jasper Report to PDF File
+            //JasperExportManager.exportReportToPdfFile(print, reportPath);
             
             //Direct Print
             //JasperPrintManager.printReport(print, false);

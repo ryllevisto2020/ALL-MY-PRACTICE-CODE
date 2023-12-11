@@ -1,3 +1,5 @@
+package javaapplication27;
+
 
 import java.awt.Graphics;
 import java.awt.print.PageFormat;
@@ -69,7 +71,7 @@ public static int index;
 
         jLabel3.setText("Selected Printer:");
 
-        jButton1.setText("jButton1");
+        jButton1.setText("Print");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -96,7 +98,7 @@ public static int index;
             .addGroup(layout.createSequentialGroup()
                 .addGap(144, 144, 144)
                 .addComponent(jButton1)
-                .addContainerGap(181, Short.MAX_VALUE))
+                .addContainerGap(184, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
