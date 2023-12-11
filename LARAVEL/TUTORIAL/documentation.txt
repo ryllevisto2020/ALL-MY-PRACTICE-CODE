@@ -5,9 +5,9 @@ controller
 middleware
 model
 response
-session
-cookie
+session and cookie
 storage and storage link -> use for uploading files
+(validation)
 
 Set Request & response headers -> to inspect request & response headers use dd(<request variables>)
 Get Request & response headers ->

@@ -7,23 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
-
-class AccountModel extends Authenticatable
+class accountModelLogin extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable;
-    protected $guard="accountModelGuard";
-    protected $fillable = [
-        "username","password",
-    ];
+    protected $guard = "accountModelGuard";
+    protected $table = "account_models";
 }
-
-
-
-
-
-
-
-
-
-
-

@@ -40,6 +40,11 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
+
+        'accountModelGuard' => [
+            'driver' => 'session',
+            'provider' => 'accountModelGuards',
+        ],
     ],
 
     /*
@@ -64,7 +69,10 @@ return [
             'driver' => 'eloquent',
             'model' => App\Models\User::class,
         ],
-
+        'accountModelGuards' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\accountModelLogin::class,
+        ],
         // 'users' => [
         //     'driver' => 'database',
         //     'table' => 'users',

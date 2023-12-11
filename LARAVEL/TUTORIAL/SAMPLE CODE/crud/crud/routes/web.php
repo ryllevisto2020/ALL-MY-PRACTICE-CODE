@@ -1,7 +1,8 @@
 <?php
 
+use App\Http\Controllers\loginCtrl;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\signUpCtrl;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,5 +15,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('login');
 });
+Route::get('/signup', [signUpCtrl::class,'action_signUp'])->name('signUp');
+Route::get('/login', [loginCtrl::class,'action_login'])->name('login');
+
+
+Route::get('/test', [loginCtrl::class,'test']);
