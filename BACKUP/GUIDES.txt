@@ -33,7 +33,7 @@ Services/Dependency Injection
 Model View Controller
 threading/multi threading
 Async/Sync/Await
-File Handling/Reading/Writing
+File Handling/Reading/Writing/Copy/Move
 Create Components
 View/Generate Documents(PDF,DOX,etc)
 Report Viewer
@@ -54,6 +54,7 @@ Authorization
 Authentication
 Custom and Access Header Request/Response
 Access Request/Response
+Access Request Body
 Send Http Request
 Model View Controller Routing/Routes
 Get Parameter/Query/Route Values from URL
