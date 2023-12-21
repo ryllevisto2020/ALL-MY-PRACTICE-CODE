@@ -1,1 +1,3 @@
 https://www.npmjs.com/package/jspdf -> jspdf
+https://developer.mozilla.org/en-US/docs/Web/javascript
+https://api.jquery.com/

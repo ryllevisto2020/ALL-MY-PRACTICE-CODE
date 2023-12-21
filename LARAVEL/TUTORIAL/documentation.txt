@@ -7,7 +7,19 @@ model
 response
 session and cookie
 storage and storage link -> use for uploading files
-(validation)
+(API)
+(Sanctum)
+(Files)
+(Service Provider and Container)
+(Observer)
+(Contract)
+(Repository Pattern)
+(Actions)
+(Queue and Jobs)
+(Pipeline)
+(Listener and Events)
+(SMTP)
+(Form request and form request validation)
 
 Set Request & response headers -> to inspect request & response headers use dd(<request variables>)
 Get Request & response headers ->

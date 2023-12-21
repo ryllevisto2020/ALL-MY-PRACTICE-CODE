@@ -40,15 +40,31 @@ class signUpCtrl extends Controller
             array_push($error,new error("0x1_password","Invalid Password!"));
         }
         if(sizeof($error) == 0){
-            //Insert Data to account_models table
+            //Check if Data is Exists
             try {
                 //code...
-                accountModel::create([
-                    "age"=>$age,
-                    "name"=>$name,
-                    "email"=>$email,
-                    "password"=>HASH::make($password)
-                ]);
+                if(accountModel::all()->where("email","=","$email")->count() > 0){
+                    array_push($error,new error("0x1_exist","Email is already Exist!"));
+                    return response()->json(["error"=>$error]);
+                }else{
+                    //Insert Data to account_models table
+                    try {
+                        //code...
+                        accountModel::create([
+                            "age"=>$age,
+                            "name"=>$name,
+                            "email"=>$email,
+                            "password"=>HASH::make($password)
+                        ]);
+                        return response()->json(["success"=>["code"=>"0x2","message"=>"Successfully Registered!"]]);
+                    } catch (\Throwable $th) {
+                        //throw $th;
+                        if($th->getCode() == 2002){
+                            array_push($error,new error("0x1_connection","Database Error!"));
+                            return response()->json(["error"=>$error]);
+                        }
+                    }
+                }
             } catch (\Throwable $th) {
                 //throw $th;
                 if($th->getCode() == 2002){
@@ -56,7 +72,6 @@ class signUpCtrl extends Controller
                     return response()->json(["error"=>$error]);
                 }
             }
-            return response()->json(["success"=>["code"=>"0x2","message"=>"Successfully Registered!"]]);
         }else{
             return response()->json(["error"=>$error]);
         }

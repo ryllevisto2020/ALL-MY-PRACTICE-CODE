@@ -3,6 +3,7 @@ routing
 session and cookie
 router
 response
+(mysql)
 
 Set Request & response headers -> to inspect request & response headers use console.log(<request variables>)
 Get Request & response headers ->

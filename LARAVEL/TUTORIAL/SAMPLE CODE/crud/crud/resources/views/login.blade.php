@@ -47,11 +47,22 @@
                     data: data,
                     contentType: "application/json",
                     success:function(res){
+                        ////FOR ERROR
                         try {
                             for(var i = 0; i < res.error.length; i++) {
                                 $(`.${res.error[i].err_code}`).css("display","block");
-                                Swal.close({timer:1500});
+                                Swal.close({timer:2000});
                                 if(res.error[i].err_code == "0x1_connection"){
+                                    Swal.close({timer:1500})
+                                    Swal.fire({
+                                        icon: 'error',
+                                        title: res.error[i].err_message,
+                                        showConfirmButton: false,
+                                        allowOutsideClick: false,
+                                        timer: 2000,
+                                      })
+                                }
+                                if(res.error[i].err_code == "0x1_exist"){
                                     Swal.close({timer:1500})
                                     Swal.fire({
                                         icon: 'error',
@@ -63,8 +74,10 @@
                                 }
                             }
                         } catch (err) {
-                            //
+                            //-BLANK-//
                         }
+
+                        ////FOR SUCCESS
                         try {
                             if(res.success.code == '0x2'){
                                 Swal.close({timer:1500})
@@ -80,7 +93,7 @@
 
                             }
                         } catch (err) {
-                            //
+                            ///-BLANK-//
                         }
                     }
                 });
@@ -122,7 +135,7 @@
                                 }
                             }
                         } catch (err) {
-                            
+
                         }
                         try {
                             if(res.error[0].err_code=='0x1_login_Incorrect'){
@@ -135,7 +148,7 @@
                                     })
                             }
                         } catch (err) {
-                            
+
                         }
                         try {
                             if(res.success.code == "0x2" ){
@@ -145,10 +158,12 @@
                                     showConfirmButton: false,
                                     allowOutsideClick: false,
                                     timer: 2000,
+                                    }).then((result)=>{
+                                        window.location.replace("/home");
                                     })
                             }
                         } catch (err) {
-                            
+
                         }
                     }
                 });

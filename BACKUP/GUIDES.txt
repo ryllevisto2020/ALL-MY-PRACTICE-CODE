@@ -19,7 +19,7 @@ Function/Method
 Conditional Statement(If,If...else,Switch)
 Loop Statement(For Loop,While Loop,Do While Loop)
 Variables
-JSON(encode,decode,serialized,deserialize,stringify,jsonify)
+JSON(encode,decode,serialized,deserialize,stringify,jsonify) -> JSON DATA TO STRING(VICE VERSA)
 Regex
 MySql Database(Create,Read,Update,Delete)
 Networking & socket & tcp/ip
@@ -45,6 +45,7 @@ Chart/Pie Chart etc
 Return Statement(String/Integer/Object etc)
 API Integration using Http Request
 Open Dialog(Print Dialog/File Dialog/etc)
+Serial Communication
 
 --Web
 Session
@@ -52,6 +53,7 @@ Cookie
 Token
 Authorization
 Authentication
+Validation
 Custom and Access Header Request/Response
 Access Request/Response
 Access Request Body

@@ -10,6 +10,7 @@ Printer/Print Documents(PDF,DOCX,etc)
 JasperReports
 PDFWriter
 File I/O Handling
+jserialcomm
 (JSON(Parse/Stringify,Encode/Decode,Serialize/Deserialize) -> Convert String to Json Format(Vice Versa))
 (Interface and Abstract Class)
 (OpenCv -> for face recognition and open camera)

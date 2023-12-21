@@ -3,6 +3,7 @@
 use App\Http\Controllers\loginCtrl;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\signUpCtrl;
+use Illuminate\Support\Facades\Auth;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,11 +15,20 @@ use App\Http\Controllers\signUpCtrl;
 |
 */
 
-Route::get('/', function () {
+Route::get('/', function(){
     return view('login');
-});
-Route::get('/signup', [signUpCtrl::class,'action_signUp'])->name('signUp');
-Route::get('/login', [loginCtrl::class,'action_login'])->name('login');
+})->name('index')->middleware('check');
 
+Route::get('/home',function(){
+    dd("test");
+})->middleware('auth:accountModelGuard')->name('home');
 
-Route::get('/test', [loginCtrl::class,'test']);
+Route::get('/logout',function(){
+    Auth::guard("accountModelGuard")->logout();
+    return redirect()->route('index');
+})->middleware('auth:accountModelGuard');
+
+//ACTION
+Route::get('/signup', [signUpCtrl::class,'action_signUp'])->name('signUp')->middleware('check');;
+Route::get('/login', [loginCtrl::class,'action_login'])->name('login')->middleware('check');;
+

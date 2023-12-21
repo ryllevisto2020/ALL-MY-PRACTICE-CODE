@@ -48,12 +48,6 @@ class loginCtrl extends Controller
             return response()->json(["error"=>$error]);
         }
     }
-    public function test(){
-        Auth::guard("accountModelGuard")->logout();
-        dd(
-        Auth::check()
-        );
-    }
 }
 class error{
     public $err_code;
