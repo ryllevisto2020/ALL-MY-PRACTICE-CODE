@@ -1,0 +1,14 @@
+jSerialComm
+pdfbox
+itextpdf
+mysql-connector-java
+javax mail
+java-json
+json-simple
+commons-beanutils
+commons-collections
+commons-digester
+jasperreports
+jasperreports-fonts
+jasperreports-javaflow
+org-apache-commons-logging
