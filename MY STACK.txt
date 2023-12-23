@@ -1,0 +1,15 @@
+Webiste
+	ASP.NET
+	EXPRESS JS/NODE JS
+	JAVASCRIPT/JQUERY/AJAX
+	LARAVEL
+	PHP
+	REACT
+
+Desktop App
+	C#
+	JAVA
+	VB
+
+Android
+	KOTLIN
