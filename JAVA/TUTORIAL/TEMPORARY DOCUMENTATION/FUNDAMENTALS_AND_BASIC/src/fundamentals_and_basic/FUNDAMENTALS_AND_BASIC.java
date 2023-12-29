@@ -116,6 +116,11 @@ public class FUNDAMENTALS_AND_BASIC {
         
         String message_ = "THIS IS MESSAGE FROM CLASS CONSTRUCTOR";
         class_object_constructor c_obj_construct = new class_object_constructor(message_);
+        
+        class_object_inheritance c_obj_inherit = new class_object_inheritance();
+        c_obj_inherit.function_from_class_inherit();
+        c_obj_inherit.function_from_class();
+        
     } 
     //FUNCTION OR METHOD
     public static void function(){
@@ -145,6 +150,11 @@ class class_object{
 class class_object_constructor{
     public class_object_constructor(String _message){
         System.err.println(_message);
+    }
+}
+class class_object_inheritance extends class_object{
+    public void function_from_class_inherit(){
+        System.err.println("THIS IS FUNCTION FROM INHERITANCE");
     }
 }
 
