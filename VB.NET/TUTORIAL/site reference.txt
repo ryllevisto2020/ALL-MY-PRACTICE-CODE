@@ -1,0 +1,9 @@
+OFFICIAL DOCUMENTATION
+https://learn.microsoft.com/en-us/dotnet/visual-basic/
+
+API
+https://learn.microsoft.com/en-us/dotnet/api/?view=net-7.0
+https://learn.microsoft.com/en-us/dotnet/api/?view=windowsdesktop-7.0
+
+VISUAL BASIC.NET PACKAGES
+-MySqlConnector
