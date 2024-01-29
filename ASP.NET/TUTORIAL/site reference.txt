@@ -1,0 +1,2 @@
+https://learn.microsoft.com/en-us/dotnet/api/?preserve-view=true&view=aspnetcore-8.0
+https://learn.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-8.0
