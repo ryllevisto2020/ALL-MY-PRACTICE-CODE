@@ -1,1 +1,11 @@
+OFFICIAL DOCUMENTATION
 https://expressjs.com/en/4x/api.html
+
+JAVASCRIPT PACKAGES
+-express
+-nodemon
+-cookie-parser
+-body-parser
+-express-session
+-json-server
+-express-fileupload
