@@ -1,3 +1,19 @@
 https://docs.oracle.com/en/java/javase/21/docs/api/index.html
 https://www.baeldung.com/java-opencv
 https://howtodoinjava.com/java/library/read-generate-pdf-java-itext/
+
+JAVA PACKAGES
+-jSerialComm
+-pdfbox
+-itextpdf
+-mysql-connector-java
+-javax mail
+-java-json
+-json-simple
+-commons-beanutils
+-commons-collections
+-commons-digester
+-jasperreports
+-jasperreports-fonts
+-jasperreports-javaflow
+-org-apache-commons-logging

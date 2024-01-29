@@ -56,6 +56,8 @@ public class PRINT_DOCUMENTS {
         
         //START TO PRINT
         PJ.print();
+        
+        //PRINT DIALOG
     }
     
 }
